@@ -73,6 +73,7 @@ public class MapUI extends JFrame {
 	private void init() {
 		// TODO: Edit layout: improve panel organization and whole appearance.
 		// Make MenuBar
+		setTitle("WMSMapExplorer");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		getContentPane().setLayout(new BorderLayout());
 
